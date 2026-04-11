@@ -20,21 +20,21 @@ This document contains all the dummy login credentials for testing the Logistics
 
 ## How to Use These Credentials
 
-### If using MySQL:
+### If using MySQL::
 1. Make sure MySQL is running
 2. The credentials are already included in `database_schema.sql`
 3. Or run `add_dummy_users.sql` to insert them into your existing database
 
-### If using SQLite:
+### If using SQLite::
 1. The SQLite database (`logistics.db`) already contains these credentials
 2. The application will use them automatically
 
-### Testing
+### Testing:
 - Try logging in with any of the above credentials
 - Admin users will see the Admin Dashboard
 - Regular users will see the User Dashboard
 
-## Troubleshooting
+## Troubleshooting:
 
 If you're getting "Invalid credentials" error:
 
@@ -49,7 +49,7 @@ If you're getting "Invalid credentials" error:
    - MySQL: Make sure MySQL is running on localhost:3306
    - The app will fall back to SQLite if MySQL fails
 
-## Quick Setup
+## Quick Setup:
 
 To add these users to your existing database, run:
 
